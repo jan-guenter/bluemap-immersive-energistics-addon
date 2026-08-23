@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0-alpha.1 - 2026-08-24
 
 - Generated a fail-closed Java 21 BlueMap add-on seed for `immeng-1.1.0-beta`.
 - Render persisted `me` and `me_dense` wire spans with their exact colors,
@@ -8,4 +8,4 @@
 - Ignore ordinary IE, internal, malformed, and unknown wire records.
 - Add a complete compact gallery with all 12 connector-facing controls, both
   wire types, and an isolated no-wire fallback control.
-- Owner visual acceptance and release promotion remain pending.
+- Seal the exact owner-accepted staging entries for release promotion.

@@ -3,7 +3,7 @@
 A Java 21 BlueMap add-on for the exact `immeng-1.1.0-beta` profile in All the Mons
 `1.2.0` / Minecraft `1.21.1`.
 
-Status: implemented staging candidate awaiting owner visual review. BlueMap
+Status: `0.1.0-alpha.1` is the owner-accepted first release candidate. BlueMap
 keeps the two connector blocks on their installed stock models and adds static
 geometry for persisted `me` and `me_dense` wire spans. Ordinary Immersive
 Engineering wires are deliberately ignored so the two add-ons can be installed
