@@ -1,2 +1,18 @@
 case_id	label	x	y	z	block_state	expected
-stock-control	stone stock rendering control	176	100	175	minecraft:stone	stock-visible
+connector-me-down	connector me facing down	176	101	176	immeng:connector_me[facing=down,waterlogged=false]	stock-model-visible
+connector-me-up	connector me facing up	180	101	176	immeng:connector_me[facing=up,waterlogged=false]	stock-model-visible
+connector-me-north	connector me facing north	184	101	176	immeng:connector_me[facing=north,waterlogged=false]	stock-model-visible
+connector-me-south	connector me facing south	188	101	176	immeng:connector_me[facing=south,waterlogged=false]	stock-model-visible
+connector-me-east	connector me facing east	192	101	176	immeng:connector_me[facing=east,waterlogged=false]	stock-model-visible
+connector-me-west	connector me facing west	196	101	176	immeng:connector_me[facing=west,waterlogged=false]	stock-model-visible
+connector-me-relay-down	connector me relay facing down	176	101	182	immeng:connector_me_relay[facing=down,waterlogged=false]	stock-model-visible
+connector-me-relay-up	connector me relay facing up	180	101	182	immeng:connector_me_relay[facing=up,waterlogged=false]	stock-model-visible
+connector-me-relay-north	connector me relay facing north	184	101	182	immeng:connector_me_relay[facing=north,waterlogged=false]	stock-model-visible
+connector-me-relay-south	connector me relay facing south	188	101	182	immeng:connector_me_relay[facing=south,waterlogged=false]	stock-model-visible
+connector-me-relay-east	connector me relay facing east	192	101	182	immeng:connector_me_relay[facing=east,waterlogged=false]	stock-model-visible
+connector-me-relay-west	connector me relay facing west	196	101	182	immeng:connector_me_relay[facing=west,waterlogged=false]	stock-model-visible
+me-direct-a	ME direct endpoint A	176	101	190	immeng:connector_me[facing=down,waterlogged=false]	wire-endpoint
+me-direct-b	ME direct endpoint B	188	101	190	immeng:connector_me[facing=down,waterlogged=false]	wire-endpoint
+dense-relay-end	dense ME relay endpoint	176	101	196	immeng:connector_me[facing=down,waterlogged=false]	wire-endpoint
+dense-relay-hub	dense ME relay hub	190	101	196	immeng:connector_me_relay[facing=down,waterlogged=false]	wire-relay
+absent-wire-relay-control	isolated relay: absent-wire safe fallback	204	101	202	immeng:connector_me_relay[facing=down,waterlogged=false]	stock-visible-no-wire

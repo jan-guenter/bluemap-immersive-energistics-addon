@@ -11,12 +11,14 @@ import io.github.janguenter.bluemap.immeng.profile.ExactArtifactDetector;
 import io.github.janguenter.bluemap.immeng.profile.ImmersiveEnergistics110BetaProfile;
 
 import java.nio.file.Path;
+import java.util.Set;
 
-/** Exact-artifact admission hook; family routing deliberately remains stock. */
+/** Exact-artifact admission and installed IE wire-texture validation. */
 final class ProfileResourceExtension implements ResourcePackExtension {
 
     private final ResourcePack resourcePack;
     private final AddonRuntime runtime;
+    private boolean admitted;
 
     ProfileResourceExtension(ResourcePack resourcePack, AddonRuntime runtime) {
         this.resourcePack = resourcePack;
@@ -25,6 +27,7 @@ final class ProfileResourceExtension implements ResourcePackExtension {
 
     @Override
     public void loadResources(Iterable<Path> roots) {
+        admitted = false;
         if (Boolean.getBoolean("bluemap.immeng.disabled")) {
             runtime.inactive("operator-disabled");
             return;
@@ -33,13 +36,24 @@ final class ProfileResourceExtension implements ResourcePackExtension {
             runtime.inactive("exact-artifact-missing-or-duplicate");
             return;
         }
+        admitted = true;
+    }
 
-        // SCAFFOLD_NOT_IMPLEMENTED: validate installed resources, register the
-        // family renderer, route only owned hosts, then call runtime.activate().
-        if (resourcePack.getBlockStates() == null) {
-            runtime.fail("resource-pack-unavailable");
+    @Override
+    public Set<de.bluecolored.bluemap.core.util.Key> collectUsedTextureKeys() {
+        return admitted ? Set.of(WireEmitter.WIRE_TEXTURE) : Set.of();
+    }
+
+    @Override
+    public void bake() {
+        if (!admitted) {
             return;
         }
-        runtime.inactive("family-renderer-not-implemented");
+        if (resourcePack.getTextures().get(WireEmitter.WIRE_TEXTURE) == null) {
+            runtime.inactive("installed-wire-texture-missing");
+            return;
+        }
+        runtime.activate();
+        System.out.println("BlueMap Immersive Energistics add-on active: wire renderer ready.");
     }
 }

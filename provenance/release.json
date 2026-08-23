@@ -1,10 +1,93 @@
 {
-  "accepted_staging_entries": null,
-  "final_release_artifacts": null,
-  "note": "Populate only after owner visual acceptance; this file is not packaged.",
-  "owner_accepted_staging": null,
-  "repository": "https://github.com/jan-guenter/bluemap-immersive-energistics-addon",
   "schema_version": 1,
-  "status": "prototype-not-owner-accepted",
-  "version": "0.1.0-SNAPSHOT"
+  "status": "owner-accepted-release-candidate",
+  "version": "0.1.0-alpha.1",
+  "release_date": "2026-08-24",
+  "repository": "https://github.com/jan-guenter/bluemap-immersive-energistics-addon",
+  "tag": "v0.1.0-alpha.1",
+  "maven_coordinate": "io.github.jan-guenter:bluemap-immersive-energistics-addon:0.1.0-alpha.1",
+  "owner_accepted_staging": {
+    "commit": "01afbc431d2930ba37b942c1827a302e5a66d59f",
+    "tree": "ad0105ba862c6223f458a86f3835741d2d423498",
+    "production_jar_size": 91506,
+    "production_jar_sha256": "deb1e867094e36033188d40c1af69ea9819340e55a39323dbbfdf864c67e214b",
+    "accepted_at": "2026-08-24",
+    "visual_acceptance": true,
+    "gallery_archive_size": 3370,
+    "gallery_archive_sha256": "abf6b4b926d1fc8b4bdce774b7c57af3911bb5f9fbac7f6d0e67e0a27c577b8f",
+    "facing_controls": 12,
+    "wire_spans": 2,
+    "absent_wire_controls": 1
+  },
+  "accepted_staging_entries": {
+    "path": "provenance/accepted-staging-entries.sha256",
+    "entry_count": 33,
+    "sha256": "e32705a7a9c784d53401a7b1a5383099b59e5853e61116af43569732f1f2bd17"
+  },
+  "final_release_artifacts": {
+    "production_jar": {
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1.jar",
+      "size": 91505,
+      "sha256": "e61ae9c0fd9c8cfd36698a13a03124ff3536e8e93419fca22c47d4e29eb9bc76"
+    },
+    "sources_jar": {
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1-sources.jar",
+      "size": 60289,
+      "sha256": "b30e5160f1a49cf107af1567bafdb32c5fd58429facc73cbeb8d30859a062146"
+    },
+    "pom": {
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1.pom",
+      "size": 1401,
+      "sha256": "f582b5a01955d4101aaef639d11a6ef1b81cf9b66d4d7d5cb0e1de743594444f"
+    },
+    "gradle_module": {
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1.module.json",
+      "size": 2915,
+      "sha256": "418ba70d6964fcd7c9ede0258a2a47f635d5af5ea4eece2856156b22d73ff183"
+    }
+  },
+  "staged_equivalence": {
+    "entry_manifest": "provenance/accepted-staging-entries.sha256",
+    "identical_non_manifest_entries": 33,
+    "whole_jar_byte_identical": false,
+    "only_changed_entry_bytes": "META-INF/MANIFEST.MF",
+    "change_reason": "Implementation-Version changed from the accepted SNAPSHOT marker to the final release version."
+  },
+  "gallery": {
+    "archive_file_name": "immeng-gallery-verify.zip",
+    "size": 3370,
+    "sha256": "abf6b4b926d1fc8b4bdce774b7c57af3911bb5f9fbac7f6d0e67e0a27c577b8f",
+    "facing_controls": 12,
+    "wire_spans": 2,
+    "absent_wire_controls": 1,
+    "published_as_release_asset": false
+  },
+  "ephemeral_ci_inputs": {
+    "immersiveEnergistics": {
+      "curseforge_project": 992377,
+      "curseforge_file": 6131911,
+      "size": 40560,
+      "sha256": "389b6671058915761d5e897a624055adc78e4680180c521994e39a0ef4e7c79b"
+    },
+    "immersiveengineering": {
+      "curseforge_project": 231951,
+      "curseforge_file": 6733669,
+      "size": 14232121,
+      "sha256": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc"
+    },
+    "appliedenergistics2": {
+      "curseforge_project": 223794,
+      "curseforge_file": 7027323,
+      "size": 8230896,
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
+    "policy": "Downloaded only into the ephemeral runner, verified before use, and never bundled or uploaded."
+  },
+  "verification": {
+    "production_jar_exact_byte_gate": true,
+    "sources_jar_exact_byte_gate": true,
+    "publication_metadata_exact_byte_gate": true,
+    "gallery_archive_exact_byte_gate": true,
+    "exact_input_gate": true
+  }
 }
