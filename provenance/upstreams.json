@@ -1,0 +1,69 @@
+{
+  "artifacts": [
+    {
+      "curseforge_file": 6131911,
+      "curseforge_project": 992377,
+      "download_url": "https://www.curseforge.com/api/v1/mods/992377/files/6131911/download",
+      "evidence": "All the Mons 1.2.0 exact manifest association and SHA-1-correlated runtime JAR",
+      "evidence_tier": "T2_ARTIFACT_EXACT",
+      "file_name": "Immersive-Energistics-1.1.0-beta.jar",
+      "key": "immersiveEnergistics",
+      "license": "LGPLv3 (only/or-later unspecified)",
+      "mod_id": "immeng",
+      "redistributed": false,
+      "sha1": "05aac40c5c9570946db540fabbb702898ca294d4",
+      "sha256": "389b6671058915761d5e897a624055adc78e4680180c521994e39a0ef4e7c79b",
+      "size": 40560,
+      "version": "1.1.0-beta"
+    },
+    {
+      "curseforge_file": 6733669,
+      "curseforge_project": 231951,
+      "download_url": "https://www.curseforge.com/api/v1/mods/231951/files/6733669/download",
+      "evidence": "All the Mons 1.2.0 exact manifest association and SHA-1-correlated runtime JAR; owns the persisted wire interface",
+      "evidence_tier": "T2_ARTIFACT_EXACT",
+      "file_name": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "key": "immersiveengineering",
+      "license": "Blu's License of Common Sense",
+      "mod_id": "immersiveengineering",
+      "redistributed": false,
+      "sha1": "a4e90c2df8009040f6d022433c5d76635944dd59",
+      "sha256": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc",
+      "size": 14232121,
+      "version": "12.4.2-194"
+    },
+    {
+      "curseforge_file": 7027323,
+      "curseforge_project": 223794,
+      "download_url": "https://www.curseforge.com/api/v1/mods/223794/files/7027323/download",
+      "evidence": "All the Mons 1.2.0 exact manifest association and SHA-1-correlated runtime JAR; required host dependency",
+      "evidence_tier": "T2_ARTIFACT_EXACT",
+      "file_name": "appliedenergistics2-19.2.17.jar",
+      "key": "appliedenergistics2",
+      "license": "LGPL-3.0-or-later",
+      "mod_id": "ae2",
+      "redistributed": false,
+      "sha1": "49c18d6a4af487957d7e5a6ad5dcbf71090b8e14",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95",
+      "size": 8230896,
+      "version": "19.2.17"
+    }
+  ],
+  "bluemap": {
+    "api_commit": "285c9a60eff3ac2b0cab308ce1058d1565be0971",
+    "commit": "9be321df995a1103808621d529eb72773e719d4d",
+    "license": "MIT",
+    "redistributed": false,
+    "version": "5.22-agent.backport-5.22-mc1.21.1-2"
+  },
+  "pack": {
+    "commit": "c7bb230f21d14d26859d0b92548f089b3a493ad9",
+    "minecraft": "1.21.1",
+    "name": "All the Mons",
+    "neoforge": "21.1.248",
+    "version": "1.2.0"
+  },
+  "profile": "immeng-1.1.0-beta",
+  "schema": 1,
+  "source_use": "Runtime interfaces and installed resources may be interpreted only after family-specific evidence is recorded; no candidate classes, assets, binaries, source, or captured meshes are packaged."
+}

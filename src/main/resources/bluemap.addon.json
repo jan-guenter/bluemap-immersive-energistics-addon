@@ -1,0 +1,6 @@
+{
+  "id": "bluemap-immersive-energistics",
+  "entrypoint": "io.github.janguenter.bluemap.immeng.BlueMapImmersiveEnergisticsAddon",
+  "dependencies": [],
+  "soft-dependencies": []
+}
