@@ -3,7 +3,7 @@
 A Java 21 BlueMap add-on for the exact `immeng-1.1.0-beta` profile in All the Mons
 `1.2.0` / Minecraft `1.21.1`.
 
-Version `0.1.0-alpha.2` is the unpublished native BlueMap 5.23 migration
+Version `0.1.0-alpha.2` is the owner-accepted native BlueMap 5.23 release
 candidate. It preserves the owner-accepted `0.1.0-alpha.1` behavior: BlueMap
 keeps the two connector blocks on their installed stock models and adds static
 geometry for persisted `me` and `me_dense` wire spans. Ordinary Immersive

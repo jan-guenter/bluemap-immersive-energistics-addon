@@ -55,7 +55,7 @@ Verify a prototype with exact candidate JAR properties:
 - `-PimmersiveEngineeringJar=/path/to/ImmersiveEngineering-1.21.1-12.4.2-194.jar`
 - `-PappliedEnergisticsJar=/path/to/appliedenergistics2-19.2.17.jar`
 
-Pass those properties to Gradle and run `prototypeCheck`. The unpublished
+Pass those properties to Gradle and run `prototypeCheck`. The owner-accepted
 `0.1.0-alpha.2` migration candidate is sealed under `candidate_artifacts` and
 must pass `verifyReleaseCandidate -PreleaseTag=v0.1.0-alpha.2`. Follow
 `docs/EXECUTION.md` for the acceptance and publication sequence.
