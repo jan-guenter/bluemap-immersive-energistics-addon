@@ -44,24 +44,24 @@
   },
   "candidate_artifacts": {
     "production_jar": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.jar",
-      "size": 97191,
-      "sha256": "cdc50e2f335d4c40e261dd54d872c22fbd71988c9953caeb1a013625670d6c49"
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.3.jar",
+      "size": 104707,
+      "sha256": "a4dfbfa6d7240a3421f45bdce346e745123f470c0c11c7601ae6bc5f6feb587f"
     },
     "sources_jar": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2-sources.jar",
-      "size": 65880,
-      "sha256": "5a66ca33054367bb981b8d75b92e9fe1cf814ee6e4cc03b93752a759f7aed27e"
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.3-sources.jar",
+      "size": 68503,
+      "sha256": "fee89a90e27c0dd9e46832f6432ca7696482fdb5e4c1d79e409e6b37f083838b"
     },
     "pom": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.pom",
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.3.pom",
       "size": 1401,
-      "sha256": "3f13dde363de3b7fd1c55cba530557bcf61b1c9ff515bc375fb37b66cd252cfb"
+      "sha256": "2e2c5bc38af569dfde73f247ae2c1ea08911210b1f86465d349ba2cc3b05c0b5"
     },
     "gradle_module": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.module.json",
-      "size": 2915,
-      "sha256": "b53c287343ac978aa701f81a6851b77cb754e15463cb3f8367bb43fc981e2a18"
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.3.module.json",
+      "size": 2917,
+      "sha256": "2a2da060bad0cc383d299eb7eab9bcc46041ac5d672a7362d7d60e472abd914d"
     }
   },
   "preserved_contract": {

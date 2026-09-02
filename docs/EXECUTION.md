@@ -47,7 +47,7 @@ Run the exact candidate through a pull request with all exact inputs:
 
 ```bash
 gradle --no-daemon -PbluemapSourcePath=/path/to/BlueMap-at-7e07f4e7 \
-  <exact-candidate-properties> -PreleaseTag=v0.1.0-alpha.2 \
+  <exact-candidate-properties> -PreleaseTag=v0.1.0-alpha.3 \
   clean build generatePomFileForAddonPublication \
   generateMetadataFileForAddonPublication verifyReleaseCandidate
 ```

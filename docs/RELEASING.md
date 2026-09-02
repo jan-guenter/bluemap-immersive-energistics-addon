@@ -11,9 +11,9 @@ After the owner accepts the candidate:
    to `owner-accepted-release-candidate`.
 3. Require the production JAR, sources JAR, POM, and Gradle module metadata to
    match the already sealed `candidate_artifacts` bytes.
-4. Run `verifyReleaseCandidate -PreleaseTag=v0.1.0-alpha.2` with all exact
+4. Run `verifyReleaseCandidate -PreleaseTag=v0.1.0-alpha.3` with all exact
    candidate JAR Gradle properties.
-5. Merge the reviewed commit, create an annotated `v0.1.0-alpha.2` tag at that
+5. Merge the reviewed commit, create an annotated `v0.1.0-alpha.3` tag at that
    commit, and let `.github/workflows/release.yml` publish.
 6. Compare every downloaded release asset to the locally accepted bytes.
 7. Update the private root portfolio, queue, and `workspace.json` in a separate

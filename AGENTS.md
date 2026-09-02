@@ -56,8 +56,8 @@ Verify a prototype with exact candidate JAR properties:
 - `-PappliedEnergisticsJar=/path/to/appliedenergistics2-19.2.17.jar`
 
 Pass those properties to Gradle and run `prototypeCheck`. The owner-accepted
-`0.1.0-alpha.2` migration candidate is sealed under `candidate_artifacts` and
-must pass `verifyReleaseCandidate -PreleaseTag=v0.1.0-alpha.2`. Follow
+`0.1.0-alpha.3` migration candidate is sealed under `candidate_artifacts` and
+must pass `verifyReleaseCandidate -PreleaseTag=v0.1.0-alpha.3`. Follow
 `docs/EXECUTION.md` for the acceptance and publication sequence.
 
 Never stage or commit generated build output, candidate JARs, galleries, worlds,
