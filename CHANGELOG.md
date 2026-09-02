@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0-alpha.3 - 2026-09-02
+
+- Use the released shared Adapter API registration plan without changing
+  registration order, failure policy, rendering, resources, or gallery cases.
+
 ## 0.1.0-alpha.2 - 2026-09-02
 
 - Migrated exact runtime admission and the internal adapter to the tested
