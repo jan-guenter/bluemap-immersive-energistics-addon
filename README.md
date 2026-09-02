@@ -3,8 +3,8 @@
 A Java 21 BlueMap add-on for the exact `immeng-1.1.0-beta` profile in All the Mons
 `1.2.0` / Minecraft `1.21.1`.
 
-Version `0.1.0-alpha.2` is the owner-accepted native BlueMap 5.23 release
-candidate. It preserves the owner-accepted `0.1.0-alpha.1` behavior: BlueMap
+Version `0.1.0-alpha.3` is an unpublished registration-plan migration
+candidate. It preserves the owner-accepted `0.1.0-alpha.2` behavior: BlueMap
 keeps the two connector blocks on their installed stock models and adds static
 geometry for persisted `me` and `me_dense` wire spans. Ordinary Immersive
 Engineering wires are deliberately ignored so the two add-ons can be installed
@@ -27,7 +27,7 @@ gradle --no-daemon \
 requires every exact candidate JAR property and validates the complete compact
 gallery. See `provenance/upstreams.json` for immutable artifact identities and
 the [execution guide](docs/EXECUTION.md) for the prototype-to-release loop.
-The four pinned Adapter API sources are compiled into the add-on; its
+The five pinned Adapter API sources are compiled into the add-on; its
 standalone module JAR is neither installed nor nested.
 
 ## Install
