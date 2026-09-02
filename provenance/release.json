@@ -29,23 +29,23 @@
   "candidate_artifacts": {
     "production_jar": {
       "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.jar",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 97191,
+      "sha256": "cdc50e2f335d4c40e261dd54d872c22fbd71988c9953caeb1a013625670d6c49"
     },
     "sources_jar": {
       "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2-sources.jar",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 65880,
+      "sha256": "5a66ca33054367bb981b8d75b92e9fe1cf814ee6e4cc03b93752a759f7aed27e"
     },
     "pom": {
       "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.pom",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 1401,
+      "sha256": "3f13dde363de3b7fd1c55cba530557bcf61b1c9ff515bc375fb37b66cd252cfb"
     },
     "gradle_module": {
       "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.module.json",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 2915,
+      "sha256": "b53c287343ac978aa701f81a6851b77cb754e15463cb3f8367bb43fc981e2a18"
     }
   },
   "preserved_contract": {
