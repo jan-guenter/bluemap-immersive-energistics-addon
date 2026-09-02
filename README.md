@@ -3,7 +3,8 @@
 A Java 21 BlueMap add-on for the exact `immeng-1.1.0-beta` profile in All the Mons
 `1.2.0` / Minecraft `1.21.1`.
 
-Status: `0.1.0-alpha.1` is the owner-accepted first release candidate. BlueMap
+Version `0.1.0-alpha.2` is the unpublished native BlueMap 5.23 migration
+candidate. It preserves the owner-accepted `0.1.0-alpha.1` behavior: BlueMap
 keeps the two connector blocks on their installed stock models and adds static
 geometry for persisted `me` and `me_dense` wire spans. Ordinary Immersive
 Engineering wires are deliberately ignored so the two add-ons can be installed
@@ -12,8 +13,10 @@ together without duplicate geometry.
 ## Build
 
 ```bash
+git submodule update --init --recursive -- \
+  tooling/bluemap-addon-toolkit modules/bluemap-addon-adapter-api
 gradle --no-daemon \
-  -PbluemapSourcePath=../bluemap-backport \
+  -PbluemapSourcePath=/path/to/BlueMap-at-7e07f4e7 \
   -PimmersiveEnergisticsJar=/path/to/Immersive-Energistics-1.1.0-beta.jar \
   -PimmersiveEngineeringJar=/path/to/ImmersiveEngineering-1.21.1-12.4.2-194.jar \
   -PappliedEnergisticsJar=/path/to/appliedenergistics2-19.2.17.jar \
@@ -24,6 +27,8 @@ gradle --no-daemon \
 requires every exact candidate JAR property and validates the complete compact
 gallery. See `provenance/upstreams.json` for immutable artifact identities and
 the [execution guide](docs/EXECUTION.md) for the prototype-to-release loop.
+The four pinned Adapter API sources are compiled into the add-on; its
+standalone module JAR is neither installed nor nested.
 
 ## Install
 

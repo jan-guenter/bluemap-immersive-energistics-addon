@@ -1,66 +1,59 @@
 {
   "schema_version": 1,
-  "status": "owner-accepted-release-candidate",
-  "version": "0.1.0-alpha.1",
-  "release_date": "2026-08-24",
+  "status": "unpublished-migration-candidate",
+  "published": false,
+  "version": "0.1.0-alpha.2",
+  "release_date": "2026-09-02",
   "repository": "https://github.com/jan-guenter/bluemap-immersive-energistics-addon",
-  "tag": "v0.1.0-alpha.1",
-  "maven_coordinate": "io.github.jan-guenter:bluemap-immersive-energistics-addon:0.1.0-alpha.1",
-  "owner_accepted_staging": {
-    "commit": "01afbc431d2930ba37b942c1827a302e5a66d59f",
-    "tree": "ad0105ba862c6223f458a86f3835741d2d423498",
-    "production_jar_size": 91506,
-    "production_jar_sha256": "deb1e867094e36033188d40c1af69ea9819340e55a39323dbbfdf864c67e214b",
-    "accepted_at": "2026-08-24",
-    "visual_acceptance": true,
-    "gallery_archive_size": 3370,
-    "gallery_archive_sha256": "abf6b4b926d1fc8b4bdce774b7c57af3911bb5f9fbac7f6d0e67e0a27c577b8f",
-    "facing_controls": 12,
-    "wire_spans": 2,
-    "absent_wire_controls": 1
+  "tag": "v0.1.0-alpha.2",
+  "maven_coordinate": "io.github.jan-guenter:bluemap-immersive-energistics-addon:0.1.0-alpha.2",
+  "bluemap_target": {
+    "version": "5.22-feature.backport-5.23-stateless-java-web-server-46",
+    "commit": "7e07f4e74ec1e92a6ead9aa1e66054af3e133aac",
+    "api_commit": "285c9a60eff3ac2b0cab308ce1058d1565be0971"
   },
-  "accepted_staging_entries": {
-    "path": "provenance/accepted-staging-entries.sha256",
-    "entry_count": 33,
-    "sha256": "e32705a7a9c784d53401a7b1a5383099b59e5853e61116af43569732f1f2bd17"
+  "adapter_api": {
+    "version": "0.1.0-alpha.2",
+    "commit": "e81f08bc4bfbf02d810ec8949a019130e2e61634",
+    "source_tree": "2f974c9bb2ba13888d69682f86f30f58922d30eb",
+    "compiled_as_source": true,
+    "standalone_jar_bundled": false
   },
-  "final_release_artifacts": {
+  "previous_owner_accepted_release": {
+    "version": "0.1.0-alpha.1",
+    "tag": "v0.1.0-alpha.1",
+    "production_jar_size": 91505,
+    "production_jar_sha256": "e61ae9c0fd9c8cfd36698a13a03124ff3536e8e93419fca22c47d4e29eb9bc76",
+    "visual_acceptance": true
+  },
+  "candidate_artifacts": {
     "production_jar": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1.jar",
-      "size": 91505,
-      "sha256": "e61ae9c0fd9c8cfd36698a13a03124ff3536e8e93419fca22c47d4e29eb9bc76"
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.jar",
+      "size": 0,
+      "sha256": "PENDING"
     },
     "sources_jar": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1-sources.jar",
-      "size": 60289,
-      "sha256": "b30e5160f1a49cf107af1567bafdb32c5fd58429facc73cbeb8d30859a062146"
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2-sources.jar",
+      "size": 0,
+      "sha256": "PENDING"
     },
     "pom": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1.pom",
-      "size": 1401,
-      "sha256": "f582b5a01955d4101aaef639d11a6ef1b81cf9b66d4d7d5cb0e1de743594444f"
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.pom",
+      "size": 0,
+      "sha256": "PENDING"
     },
     "gradle_module": {
-      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.1.module.json",
-      "size": 2915,
-      "sha256": "418ba70d6964fcd7c9ede0258a2a47f635d5af5ea4eece2856156b22d73ff183"
+      "file_name": "bluemap-immersive-energistics-addon-0.1.0-alpha.2.module.json",
+      "size": 0,
+      "sha256": "PENDING"
     }
   },
-  "staged_equivalence": {
-    "entry_manifest": "provenance/accepted-staging-entries.sha256",
-    "identical_non_manifest_entries": 33,
-    "whole_jar_byte_identical": false,
-    "only_changed_entry_bytes": "META-INF/MANIFEST.MF",
-    "change_reason": "Implementation-Version changed from the accepted SNAPSHOT marker to the final release version."
-  },
-  "gallery": {
-    "archive_file_name": "immeng-gallery-verify.zip",
-    "size": 3370,
-    "sha256": "abf6b4b926d1fc8b4bdce774b7c57af3911bb5f9fbac7f6d0e67e0a27c577b8f",
-    "facing_controls": 12,
+  "preserved_contract": {
+    "connector_facing_controls": 12,
     "wire_spans": 2,
     "absent_wire_controls": 1,
-    "published_as_release_asset": false
+    "ordinary_immersive_engineering_wires_ignored": true,
+    "matches_alpha_1_owner_accepted_gallery": true
   },
   "ephemeral_ci_inputs": {
     "immersiveEnergistics": {
@@ -87,7 +80,9 @@
     "production_jar_exact_byte_gate": true,
     "sources_jar_exact_byte_gate": true,
     "publication_metadata_exact_byte_gate": true,
-    "gallery_archive_exact_byte_gate": true,
-    "exact_input_gate": true
+    "exact_input_gate": true,
+    "local_gradle_version": "9.6.1",
+    "local_java_runtime": "21.0.12.1+1",
+    "exact_alpha_2_runtime_review": false
   }
 }

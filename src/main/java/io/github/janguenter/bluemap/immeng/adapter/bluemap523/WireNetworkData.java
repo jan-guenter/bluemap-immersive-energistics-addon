@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
-package io.github.janguenter.bluemap.immeng.adapter.bluemap522;
+package io.github.janguenter.bluemap.immeng.adapter.bluemap523;
 
 import de.bluecolored.bluenbt.NBTName;
 
