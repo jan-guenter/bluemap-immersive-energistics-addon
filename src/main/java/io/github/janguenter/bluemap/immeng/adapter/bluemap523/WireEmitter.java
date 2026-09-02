@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: MIT */
 
-package io.github.janguenter.bluemap.immeng.adapter.bluemap522;
+package io.github.janguenter.bluemap.immeng.adapter.bluemap523;
 
 import com.flowpowered.math.vector.Vector3i;
 import de.bluecolored.bluemap.core.map.TextureGallery;

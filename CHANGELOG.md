@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.2 - 2026-09-02
+
+- Migrated exact runtime admission and the internal adapter to the tested
+  BlueMap 5.23 feature backport.
+- Replaced local compatibility, registry, and extension-factory helpers with
+  the pinned four-source Adapter API module.
+- Preserved the connector stock models, two accepted wire spans, and ordinary
+  Immersive Engineering wire exclusion used beside the IE add-on.
+
 ## 0.1.0-alpha.1 - 2026-08-24
 
 - Generated a fail-closed Java 21 BlueMap add-on seed for `immeng-1.1.0-beta`.
